@@ -1,0 +1,82 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #ffffff;
+
+}
+
+.input-padrao {
+    border: none;
+    border-radius: 7px;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.radios {
+    cursor: pointer;
+}
+
+ .checkbox {
+    cursor: pointer;
+    margin: 20px 0;
+ }
+
+ .horario {
+    margin-top: 20px;
+ }
+
+ .enviar {
+    width: 40%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+    background: #ffd500;
+    color: #ffffff;
+    transition: 0.5s background;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+ }
+
+ .enviar:hover {
+    background: #c4a301;
+ }
+
+ .enviar:active {
+    background: #2eb210;
+    transform:scale(0.9);
+ }
+
+ table {
+    margin: 25px;
+ }
+
+ .tr_head {
+    background: #a32708;
+    color: #ffffff;
+ }
+ 
+ td , th {
+    padding: 8px 15px;
+    border: 1px solid #000000;
+    background: #ffffff;
+    font-weight: bold;  
+ }
+
+@media screen and (max-width: 480px) {
+   .main {
+      width: auto;
+   }
+}

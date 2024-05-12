@@ -1,0 +1,57 @@
+.produtos li:hover {
+    border: 5px dashed #c4a301;
+} 
+
+.produtos li:active {
+    border: 4px solid #2eb210
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:hover .produto-descricao {
+    font-weight: bold;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    background: #ffffff;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 4px dashed #ffd500;
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 19px;
+    text-align: center;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    text-align:center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .produtos, .top_bar {
+       width: auto;
+    }
+ }
